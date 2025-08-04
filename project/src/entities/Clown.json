@@ -1,0 +1,35 @@
+{
+  "name": "Clown",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The clown's stage name"
+    },
+    "specialty": {
+      "type": "string",
+      "description": "The clown's main performance specialty (e.g., Balloon Artist, Juggler, Magic)"
+    },
+    "experience": {
+      "type": "number",
+      "description": "Years of experience as a professional clown"
+    },
+    "rating": {
+      "type": "number",
+      "description": "Performance rating from 1-5 stars"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the clown's act and personality"
+    },
+    "color": {
+      "type": "string",
+      "description": "Hex color code for the clown's theme color"
+    }
+  },
+  "required": [
+    "name",
+    "specialty",
+    "experience"
+  ]
+}
